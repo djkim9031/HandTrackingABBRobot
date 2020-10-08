@@ -4,6 +4,8 @@ Gesture Recognition, Hand Tracking, REST API communications
 
 My personal project during the lockdown period using an ABB's IRB14000 (or otherwise named as YuMi).
 
+
+
 #How to Use
   
   1. Server computer running the python files should be connected to the robot's LAN port (or service port) using an ethernet cable.
@@ -17,6 +19,8 @@ My personal project during the lockdown period using an ABB's IRB14000 (or other
   5. Any robot using robotware version 6.x can be controlled. (any prior version doesn't support REST API communication. So, socket communication needs to be used)
   
   6. For the newer robot batch using robotware version 7.x, REST API methods delineated on https://developercenter.robotstudio.com/api/RWS has to be used. Some calling methods may differ.
+
+
 
 
 
@@ -37,6 +41,8 @@ My personal project during the lockdown period using an ABB's IRB14000 (or other
   7. Robot's leanred path points and Gripper Open/Close signals are saved sequentially in .txt format (This requires ABB's Robot Studio), serving as the "taught" motion instruction for the robot.
   
   
+  
+  
 #Training Data and Architectures Used
   
   1. Initially started with Oxford Hand Dataset for training. The recognized hand shape was limited for my purpose using this data. Therefore, I have collected data personally and drew bounding boxes and annotated labels for every picture.
@@ -50,6 +56,8 @@ My personal project during the lockdown period using an ABB's IRB14000 (or other
   5. Then 200 of each hand gesture (out of 4) for training dataset, and 20 of each for validation dataset are collected.
   
   6. These data are trained using the InceptionV3's Imagenet weights
+  
+  
   
   
 #Limitations
