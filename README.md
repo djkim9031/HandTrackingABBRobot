@@ -49,7 +49,7 @@ My personal project during the lockdown period using an ABB's IRB14000 (or other
   
   2. Intentionally, pictures of humans posing different hand gestures at 0.2~1.2m distance from a camera (roughly 2.5% ~ 20% of a frame) are collected
   
-  3. 1100 of such pictures are collected
+  3. 1100 such pictures are collected
   
   4. Trained using YOLOv3 for bounding box and detection of general human hands at 0.2~1.2m distance from a cam.
   
