@@ -1,4 +1,4 @@
-# HandTrackingABBRobot
+# Palm/Hand Tracking using ABB's YuMi Robot
 Gesture Recognition, Hand Tracking, REST API communications
 
 
