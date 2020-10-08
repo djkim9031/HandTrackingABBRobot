@@ -26,7 +26,7 @@ My personal project during the lockdown period using an ABB's IRB14000 (or other
 
 ## Main Functionalities
   
-  1. Hand gesture recognition (Palm, ok sign, V sign, pointing index finger)
+  1. Hand gesture recognition (Palm, ok sign, V sign, index finger)
   
   2. Recognized palm on a vision camera is constantly tracked in real time. The position of the palm is sent using a REST API protocol to the ABB robot for synchronization.
   
