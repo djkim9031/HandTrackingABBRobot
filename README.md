@@ -6,7 +6,7 @@ My personal project during the lockdown period using an ABB's IRB14000 (or other
 
 
 
-#How to Use
+## How to Use
   
   1. Server computer running the python files should be connected to the robot's LAN port (or service port) using an ethernet cable.
   
@@ -14,17 +14,17 @@ My personal project during the lockdown period using an ABB's IRB14000 (or other
   
   3. Run "python main_starter.py 192.168.125.1" on cmd, and start tracking!
   
-  -If the robot is not availble, a virtual robot on Robot Studio can be used. In this case, the hostip should be 127.0.0.1
+  - If the robot is not availble, a virtual robot on Robot Studio can be used. In this case, the hostip should be 127.0.0.1
   
-  -Any robot using robotware version 6.x can be controlled. (any prior version doesn't support REST API communication. So, socket communication needs to be used)
+  - Any robot using robotware version 6.x can be controlled. (any prior version doesn't support REST API communication. So, socket communication needs to be used)
   
-  -For the newer robot batch using robotware version 7.x, REST API methods delineated on https://developercenter.robotstudio.com/api/RWS has to be used. Some calling methods may differ.
+  - For the newer robot batch using robotware version 7.x, REST API methods delineated on https://developercenter.robotstudio.com/api/RWS has to be used. Some calling methods may differ.
 
 
 
 
 
-#Main Functionalities
+## Main Functionalities
   
   1. Hand gesture recognition (Palm, ok sign, V sign, pointing index finger)
   
@@ -43,7 +43,7 @@ My personal project during the lockdown period using an ABB's IRB14000 (or other
   
   
   
-#Training Data and Architectures Used
+## Training Data and Architectures Used
   
   1. Initially started with Oxford Hand Dataset for training. The recognized hand shape was limited for my purpose using this data. Therefore, I have collected data personally and drew bounding boxes and annotated labels for every picture.
   
@@ -60,7 +60,7 @@ My personal project during the lockdown period using an ABB's IRB14000 (or other
   
   
   
-#Limitations
+## Limitations
   
   1. Recognized gestures are inaccurate at times depending on the background. This can be solved by applying a better data augmentation scheme or simply collecting more data
   
