@@ -53,7 +53,7 @@ My personal project during the lockdown period using an ABB's IRB14000 (or other
   
   4. Trained using YOLOv3 for bounding box and detection of general human hands at 0.2~1.2m distance from a cam.
   
-  5. Then 200 of each hand gesture (out of 4) for training dataset, and 20 of each for validation dataset are collected.
+  5. Then 200 pics of each hand gesture (out of 4) for training dataset, and 20 pics of each for validation dataset are collected.
   
   6. These data are trained using the InceptionV3's Imagenet weights
   
