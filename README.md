@@ -45,7 +45,7 @@ My personal project during the lockdown period using an ABB's IRB14000 (or other
   
 ## Training Data and Architectures Used
   
-  1. Initially started with Oxford Hand Dataset for training. The recognized hand shape was limited for my purpose using this data. Therefore, I have collected data personally and drew bounding boxes and annotated labels for every picture.
+  1. Initially started with Oxford Hand Dataset for training. The recognized hand shape was limited for my purpose using this data. Therefore, I have collected data personally, drew bounding boxes, and annotated labels for every picture.
   
   2. Intentionally, pictures of humans posing different hand gestures at 0.2~1.2m distance from a camera (roughly 2.5% ~ 20% of a frame) are collected
   
