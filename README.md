@@ -16,7 +16,7 @@ My personal project during the lockdown period using an ABB's IRB14000 (or other
   
   - If the robot is not availble, a virtual robot on Robot Studio can be used. In this case, the hostip should be 127.0.0.1
   
-  - Any robot using robotware version 6.x can be controlled. (any prior version doesn't support REST API communication. So, socket communication needs to be used)
+  - Any robot using robotware version 6.x can be controlled. (any prior version doesn't support REST API communication. In this case, socket communication is advised)
   
   - For the newer robot batch using robotware version 7.x, REST API methods delineated on https://developercenter.robotstudio.com/api/RWS has to be used. Some calling methods may differ.
 
