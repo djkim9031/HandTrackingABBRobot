@@ -10,7 +10,7 @@ My personal project during the lockdown period using an ABB's IRB14000 (or other
   
   1. Server computer running the python files should be connected to the robot's LAN port (or service port) using an ethernet cable.
   
-  2. Robot's controller should have a file similar to the one at robot_program/rapid.mod
+  2. Robot's controller should have a file similar to the one at [Here](robot_program/rapid.mod)
   
   3. Run "python main_starter.py 192.168.125.1" on cmd, and start tracking!
   
